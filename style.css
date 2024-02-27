@@ -1,3 +1,60 @@
 body {
-    background: blue;
+    background: #dbd3d8;
+    font-family: sans-serif;
+}
+
+img.background{
+    width: 50%;
+    height: auto;
+    background-color: #223843;
+}
+
+h1 {
+    position: sticky;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    background-color: #223843;
+    color: #d77a61;
+    padding: 25px;
+}
+
+.welcome{
+    position:absolute;
+    color: #d77a61;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+img.headshot {
+    width: 100px;
+    height: auto;
+    border-radius: 25px;
+}
+
+div.resume-timeline{
+    text-align: center;
+}
+
+img.powerlogo{
+    width: 100px;
+    height: 105px;
+    border-radius: 20px;
+}
+
+img.c2logo{
+    width: 100px;
+    height: 105px;
+    border-radius: 20px;
+}
+
+img.wculogo{
+    width: 100px;
+    height: 105px;
+    border-radius: 20px;
 }
