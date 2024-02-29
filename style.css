@@ -23,6 +23,34 @@ h1 {
     padding-top: 20px;
 }
 
+.topnav {
+    background-color: #223843;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #d77a61;
+    color: black;
+    font-family: sans-serif;
+  }
+  
+  .topnav a.active {
+    background-color: #d77a61;
+    color: white;
+    font-family: sans-serif;
+  }
+
 .welcome{
     position: relative;
     text-align: center;
