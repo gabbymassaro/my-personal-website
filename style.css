@@ -51,7 +51,7 @@ h1 {
     font-family: sans-serif;
   }
 
-.welcome{
+#welcome{
     position: relative;
     text-align: center;
     color: #d77a61;
@@ -63,7 +63,7 @@ h1 {
     font-weight: bold;
 }
 
-img.headshot {
+#headshot {
     width: 140px;
     height: auto;
     display: block;
@@ -79,19 +79,19 @@ div.resume-timeline{
     font-family: sans-serif; 
 }
 
-img.powerlogo{
+#powerlogo{
     width: 100px;
     height: 105px;
     border-radius: 20px;
 }
 
-img.c2logo{
+#c2logo{
     width: 100px;
     height: 105px;
     border-radius: 20px;
 }
 
-img.wculogo{
+#wculogo{
     width: 100px;
     height: 105px;
     border-radius: 20px;
