@@ -74,25 +74,33 @@ h1 {
 }
 
 
-div.resume-timeline{
-    text-align: center;
-    font-family: sans-serif; 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+}
+
+.center tr td:nth-child(2){
+    width: 300px;
 }
 
 #powerlogo{
     width: 100px;
     height: 105px;
     border-radius: 20px;
+    float: left; 
 }
 
 #c2logo{
     width: 100px;
     height: 105px;
     border-radius: 20px;
+    float: left;
 }
 
 #wculogo{
     width: 100px;
     height: 105px;
     border-radius: 20px;
+    float: left;
 }
