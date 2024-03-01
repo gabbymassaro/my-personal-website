@@ -1,3 +1,5 @@
+/* INDEX PAGE */
+
 body {
     background: #dbd3d8;
     font-family: sans-serif;
@@ -113,4 +115,50 @@ h1 {
     height: 105px;
     border-radius: 20px;
     float: left;
+}
+
+/* ------------ ABOUT PAGE ------------ */
+
+.about_body{
+    background-color: #223843;
+    padding: 50px;
+}
+
+.topnav_about {
+    background-color: #223843;
+    overflow: hidden;
+    font-family: sans-serif;
+    padding: 10px;  
+}
+
+.topnav_about a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  
+  .topnav_about a:hover {
+    background-color: #d77a61;
+    color: black;
+    font-family: sans-serif;
+  }
+  
+  .topnav_about a.active {
+    background-color: #d77a61;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+
+.about_me_container{
+    background: #dbd3d8;
+    font-family: sans-serif;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    
 }
