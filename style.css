@@ -163,19 +163,50 @@ h1 {
 }
 
 #momo{
-    width: 80%;
-    height: 80%;
+    width: auto;
+    height: 400px;
     border-radius: 20px;
+}
+
+#momo_avatar{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.momoButton{
+    text-align: center;
 }
 
 #simba{
-    width: 80%;
-    height: 80%;
+    width: auto;
+    height: 400px;
     border-radius: 20px;
 }
 
-#winnie{
-    width: 80%;
-    height: 80%;
+#lionking{
+    width: auto;
+    height: 400px;
     border-radius: 20px;
+}
+
+.simbaButton{
+    text-align: center;
+}
+
+
+#winnie{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#toothless{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.winnieButton{
+    text-align: center;
 }
