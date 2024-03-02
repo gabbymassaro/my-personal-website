@@ -1,11 +1,10 @@
-const h2 = document.createElement("h2");
+/*const h2 = document.createElement("h2");
 h2.textContent = "";
 
-document.querySelector("body").appendChild(h2);
+document.querySelector("body").appendChild(h2);*/
 
 const headshot = document.getElementById('headshot');
 const message = document.getElementById('message');
-
 
 headshot.addEventListener('mouseover', function() {
     headshot.style.opacity = '0.5';
@@ -17,3 +16,9 @@ headshot.addEventListener('mouseout', function() {
     message.style.display = 'none';
 });
 
+const momo = document.getElementById('momo');
+const momoButton = document.getElementById('momoButton');
+
+momoButton.addEventListener("click", function() {
+    momo.src = "images/momo_avatar.jpg"
+});
